@@ -2602,12 +2602,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   margin: 0;
 }
 
-/* Mosaic Grid */
 .index-showcase-section .showcase-grid {
   display: grid;
   grid-template-columns: 2fr 0.5fr 1fr 1fr;
   gap: var(--spacing-card-gap, 32px);
-  align-items: start;
+  align-items: stretch;
 }
 
 /* General Tile Styles */
@@ -2692,7 +2691,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .index-showcase-section .tile-large {
   grid-column: 1 / 3;
   grid-row: 1 / 3;
-  height: auto;
+  height: 100%;
   align-self: start;
 }
 
@@ -2700,10 +2699,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   aspect-ratio: 16 / 7;
 }
 
-/* Small Tiles */
 .index-showcase-section .tile-small-top {
   grid-column: 3 / 5;
   grid-row: 1 / 2;
+  height: auto;
+  align-self: start;
 }
 
 .index-showcase-section .tile-small-bottom {
