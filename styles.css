@@ -2702,21 +2702,24 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .index-showcase-section .tile-small-top {
   grid-column: 3 / 5;
   grid-row: 1 / 2;
-  height: auto;
-  align-self: start;
+  height: 100%;
+  align-self: stretch;
 }
 
 .index-showcase-section .tile-small-bottom {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
+  align-self: stretch;
+  height: 100%;
 }
 
-/* Narrow Trust Tile */
 .index-showcase-section .tile-narrow {
   grid-column: 4 / 5;
   grid-row: 2 / 3;
   border-inline-start: 2px solid var(--accent);
   background: linear-gradient(135deg, #0D1120 0%, #1A0D40 100%);
+  align-self: stretch;
+  height: 100%;
 }
 
 .index-showcase-section .tile-narrow .tile-content {
