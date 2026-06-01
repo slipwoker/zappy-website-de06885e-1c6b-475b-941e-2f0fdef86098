@@ -2689,10 +2689,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   margin: 0 0 auto 0;
 }
 
-/* Large Tile */
 .index-showcase-section .tile-large {
   grid-column: 1 / 3;
   grid-row: 1 / 3;
+  height: auto;
+  align-self: start;
 }
 
 .index-showcase-section .tile-large .tile-image {
