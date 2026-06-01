@@ -3208,9 +3208,9 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   }
 
   .index-stats-section .metrics-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-  }
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
 
   .index-stats-section .metric-number {
     font-size: 2.5rem;
@@ -4829,6 +4829,45 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   #stats [class*="metric-label"] {
   font-size: 1.1rem !important;
   margin-bottom: 6px !important;
+}
+}
+
+@media (max-width: 768px) {
+#stats.index-stats-section {
+  padding-top: 36px !important;
+  padding-bottom: 60px !important;
+}
+
+#stats .index-stats-section\\.section-header,
+  #stats [class*="section-header"] {
+  margin-bottom: 16px !important;
+}
+
+#stats [class*="metric-card-inner"] {
+  padding: 14px 16px !important;
+}
+
+#stats [class*="metrics-grid"] {
+  gap: 10px !important;
+}
+
+#stats [class*="metric-number"] {
+  font-size: 2rem !important;
+  margin-bottom: 4px !important;
+}
+
+#stats [class*="metric-label"] {
+  font-size: 1rem !important;
+  margin-bottom: 4px !important;
+}
+
+#stats [class*="metric-desc"] {
+  font-size: 0.875rem !important;
+  line-height: 1.4 !important;
+}
+
+#stats [class*="section-header"] p {
+  font-size: 0.9rem !important;
 }
 }
 /* mobile-submenu-overflow-fix */
