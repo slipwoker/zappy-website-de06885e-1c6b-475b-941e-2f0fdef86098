@@ -1,0 +1,66 @@
+# AICON — Generative Engine Optimization Map
+
+> AICON is an AI-focused conference brand. The event centers around artificial intelligence, bringing together professionals, innovators, and enthusiasts in the AI space. The brand name 'AICON' cleverly blends 'AI' with 'CON' (conference), suggesting a tech-forward, modern identity with a strong focus on the AI industry.
+
+---
+
+## Pages
+
+### בית
+https://aicon-de06885e.zappy5.app
+AICON is an AI-focused conference brand. The event centers around artificial intelligence, bringing together professionals, innovators, and enthusiasts in the A
+
+## Legal & Policy
+
+### Privacy Policy
+https://aicon-de06885e.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://aicon-de06885e.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://aicon-de06885e.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://aicon-de06885e.zappy5.app
+- Endpoint: https://aicon-de06885e.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About AICON
+AICON is an AI-focused conference brand. The event centers around artificial intelligence, bringing together professionals, innovators, and enthusiasts in the AI space. The brand name 'AICON' cleverly blends 'AI' with 'CON' (conference), suggesting a tech-forward, modern identity with a strong focus on the AI industry.
+
+## Target Audience
+- מקצועני טכנולוגיה
+- חוקרי AI
+- מנהיגי עסקים
+
+## Industry
+Technology / AI Conference
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://aicon-de06885e.zappy5.app/sitemap.xml
+- Robots: https://aicon-de06885e.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://aicon-de06885e.zappy5.app/llms-full.txt
