@@ -2258,7 +2258,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   line-height: 1.7;
   text-align: center;
   max-width: 680px;
-  margin: 0 auto 48px auto;
+  margin: 0 auto 32px auto;
   color: var(--text-dark);
   font-family: 'Rubik', sans-serif;
 }
@@ -2266,7 +2266,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .index-features-section .index-features-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+  gap: 24px;
   direction: rtl;
 }
 
