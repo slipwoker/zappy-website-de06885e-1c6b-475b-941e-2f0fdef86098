@@ -4808,6 +4808,29 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   white-space: nowrap !important;
 }
 }
+
+@media (max-width: 768px) {
+#stats .index-stats-section\\.\\.metric-card-inner,
+  #stats [class*="metric-card-inner"] {
+  padding: 20px !important;
+}
+
+#stats .index-stats-section\\.\\.metrics-grid,
+  #stats [class*="metrics-grid"] {
+  gap: 14px !important;
+}
+
+#stats .index-stats-section\\.\\.metric-number,
+  #stats [class*="metric-number"] {
+  font-size: 2.2rem !important;
+}
+
+#stats .index-stats-section\\.\\.metric-label,
+  #stats [class*="metric-label"] {
+  font-size: 1.1rem !important;
+  margin-bottom: 6px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
